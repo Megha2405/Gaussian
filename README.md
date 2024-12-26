@@ -10,12 +10,17 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 ## Algorithm
 
 ```
+step 1: Import the numpy module to use the built-in functions for calculation.
 
-1.Interchange and equation (or ).
-2.Divide the equation by (or ).
-3.Add times the equation to the equation (or ). Add times the equation to the equation (or ).
-4.Multiply the equation by (or ).
+Step 2: Get input from the user for number of rows and add it by 1 for number of columns.
 
+Step 3: Using np.zeros() set the matrix as null matrix.
+
+Step 4: Using nested for loop get input from the user for each element in the matrix.
+
+Step 5: Using nested for loop find the ratio and perform the elementary row operations and find the final matrix.
+
+Step 6: Use back substitution method to find the value of the variables and print it.
 ```
 
 
